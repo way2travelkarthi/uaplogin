@@ -62,5 +62,5 @@ def result():
             return render_template("welcome.html")
         except:
             return render_template("login.html",error="Your Email and Password Invalid Please Try login again or SignUp")
-if __name__ == "__main__":
+if __name__ == '__main__':
     app.run(debug=True)
